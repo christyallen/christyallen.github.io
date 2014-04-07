@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+
+<div class="post">
+
+{% assign exercise-1 = page.exercise-1 %}
+
+{% for post in site.categories.exercises %}
+  {% if post.code == exercise-1 %}
+      <p>Exercise 1 - {{post.title}}</p>
+      <p>{{ post.content }}</p>
+  {% endif %}
+{% endfor %} <br>
+
+
+</div>

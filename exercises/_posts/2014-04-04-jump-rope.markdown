@@ -1,0 +1,12 @@
+---
+layout: exercise
+title:  Jump Rope
+date:   2014-04-04
+categories: cardio
+tags: [warm up, legs, calves]
+image: jump_rope.jpg
+code: JRC
+---
+
+Options: two feet, one foot, skip
+
