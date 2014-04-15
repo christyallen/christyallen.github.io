@@ -4477,5 +4477,6 @@ font-size: 30px;
 }
 
 .instructions {
-	padding: 20px;
+	padding: 40px;
+	font-style: italic;
 }
