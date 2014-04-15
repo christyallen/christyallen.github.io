@@ -4466,7 +4466,10 @@ background-color:#fff
 .exercise-right {
 float:right;
 width:800px;
+}
 
+.exercise-right:after {
+	clear: both;
 }
 
 .exercise-left {
