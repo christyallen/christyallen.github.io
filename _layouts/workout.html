@@ -33,7 +33,7 @@
           {% if post.code == warm-up %}
               <div class="exercise-number">Warm Up</div>
                 <div class="exercise-title">{{post.title}}</div>
-                <div class="exercise-description">{{ post.content }}</div>
+                <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
           {% endif %}
         {% endfor %}
