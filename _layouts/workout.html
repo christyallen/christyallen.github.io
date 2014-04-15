@@ -197,6 +197,51 @@
 <br style="clear: both;" />
 <!-- end exercise 4 -->
 
+<!-- exercise 5 -->
+<div class="exercise-left">5</div>
+<div class="exercise-right">
+
+{% if page.exercise-5 %}
+        
+        {% assign exercise-5 = page.exercise-5 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-5 %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 5</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 5b -->
+{% if page.exercise-5b %}
+        
+        {% assign exercise-5b = page.exercise-5b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-5b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 5b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+</div> 
+<br style="clear: both;" />
+<!-- end exercise 5 -->
+
 
 
 
