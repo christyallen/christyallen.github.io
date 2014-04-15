@@ -4475,3 +4475,7 @@ width:100px;
 text-align: center;
 font-size: 30px;
 }
+
+.instructions {
+	padding: 20px;
+}
