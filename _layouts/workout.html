@@ -17,10 +17,11 @@
         <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
       </header>
 
+
+<div class="exercise-right">
 <!-- exercise 1 -->
 {% if page.exercise-1 %}
 
-        
         {% assign exercise-1 = page.exercise-1 %}
 
         {% for post in site.categories.exercises %}
@@ -32,8 +33,6 @@
                 <br style="clear: both;" />
           {% endif %}
         {% endfor %}
-
-
 
 {% endif %}
 
@@ -55,6 +54,10 @@
         {% endfor %}
 
 {% endif %}
+
+</div> <!-- exercise 1 -->
+
+<div class="exercise-left">1</div>
 
 
 <!-- exercise 2 -->
