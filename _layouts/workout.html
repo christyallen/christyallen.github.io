@@ -1,19 +1,187 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
 
-<div class="post">
+<body id="post">
 
-{% assign exercise-1 = page.exercise-1 %}
+{% include navigation.html %}
 
-{% for post in site.categories.exercises %}
-  {% if post.code == exercise-1 %}
-      <p>Exercise 1 - {{post.title}}</p>
-      <p>{{ post.content }}</p>
-  {% endif %}
-{% endfor %} <br>
+<div id="main" role="main">
+  <div id="exercise-wrapper">
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+      </header>
+
+<!-- exercise 1 -->
+{% if page.exercise-1 %}
+
+        
+        {% assign exercise-1 = page.exercise-1 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-1 %}
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 1</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          {% endif %}
+        {% endfor %}
 
 
-</div>
+
+{% endif %}
+
+<!-- exercise 1b -->
+{% if page.exercise-1b %}
+        
+        {% assign exercise-1b = page.exercise-1b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-1b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 1b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+
+<!-- exercise 2 -->
+{% if page.exercise-2 %}
+        
+        {% assign exercise-2 = page.exercise-2 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-2 %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 2</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 2b -->
+{% if page.exercise-2b %}
+        
+        {% assign exercise-2b = page.exercise-2b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-2b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 2b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 3 -->
+{% if page.exercise-3 %}
+        
+        {% assign exercise-3 = page.exercise-3 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-3 %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 3</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 3b -->
+{% if page.exercise-3b %}
+        
+        {% assign exercise-3b = page.exercise-3b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-3b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 3b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 4 -->
+{% if page.exercise-4 %}
+        
+        {% assign exercise-4 = page.exercise-4 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-4 %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 4</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 4b -->
+{% if page.exercise-4b %}
+        
+        {% assign exercise-4b = page.exercise-4b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-4b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 4b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+
+
+
+
+
+</div> <!-- #exercise-wrapper -->
+
+
+</div><!-- /#main -->
+
+{% include scripts.html %}	        
+
+</body>
+</html>
