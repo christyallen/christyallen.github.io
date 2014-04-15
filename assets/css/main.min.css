@@ -4445,10 +4445,11 @@ background-color:#fff
 
 .exercise-title {
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
 .exercise-description {
-	font-size: .9em;
+	font-size: 1em;
 	text-align: left;
 }
 
