@@ -17,6 +17,10 @@
         <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
       </header>
 
+<div class="instructions">
+{% if page.instructions %}{{ page.instructions }}{% endif %}
+</div>
+
 
 <div class="exercise-left">1</div>
 
@@ -241,6 +245,52 @@
 </div> 
 <br style="clear: both;" />
 <!-- end exercise 5 -->
+
+<!-- exercise 6 -->
+<div class="exercise-left">6</div>
+<div class="exercise-right">
+
+{% if page.exercise-6 %}
+        
+        {% assign exercise-6 = page.exercise-6 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-6 %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 6</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+<!-- exercise 6b -->
+{% if page.exercise-6b %}
+        
+        {% assign exercise-6b = page.exercise-6b %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == exercise-6b %}
+          <p>
+            <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="100"></div>
+              <div class="exercise-number">Exercise 6b</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          </p>
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+</div> 
+<br style="clear: both;" />
+<!-- end exercise 6 -->
+
 
 
 
