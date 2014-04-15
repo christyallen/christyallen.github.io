@@ -21,12 +21,34 @@
 {% if page.instructions %}{{ page.instructions }}{% endif %}
 </div>
 
-
-<div class="exercise-left">1</div>
-
-
-<div class="exercise-right">
 <!-- exercise 1 -->
+<div class="exercise-left">W</div>
+<div class="exercise-right">
+
+{% if page.warm-up %}
+
+        {% assign warm-up = page.warm-up %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == warm-up %}
+              <div class="exercise-number">Warm Up</div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content }}</div>
+                <br style="clear: both;" />
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+</div> 
+<br style="clear: both;" />
+<!-- end exercise 1 -->
+
+
+<!-- exercise 1 -->
+<div class="exercise-left">1</div>
+<div class="exercise-right">
+
 {% if page.exercise-1 %}
 
         {% assign exercise-1 = page.exercise-1 %}
