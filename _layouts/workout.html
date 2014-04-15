@@ -23,7 +23,6 @@
 
 <!-- exercise 1 -->
 <div class="exercise-left">W</div>
-<div class="clear"></div>
 <div class="exercise-right">
 
 {% if page.warm-up %}
@@ -35,7 +34,7 @@
               <div class="exercise-number">Warm Up</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
-                <br style="clear: both;" />
+                <div class="clear"></div>
           {% endif %}
         {% endfor %}
 
@@ -59,7 +58,7 @@
               <div class="exercise-number">Exercise 1</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
-                <br style="clear: both;" />
+                <div class="clear"></div>
           {% endif %}
         {% endfor %}
 
@@ -77,7 +76,7 @@
               <div class="exercise-number">Exercise 1b</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
-                <br style="clear: both;" />
+                <div class="clear"></div>
           </p>
           {% endif %}
         {% endfor %}
