@@ -153,9 +153,6 @@ max-width:100%!important
 
 @page {
 margin:.5cm
-   @bottom-right {
-    content: counter(page) " of " counter(pages);
-   }
 }
 
 p,h2,h3 {
@@ -4489,5 +4486,11 @@ text-align: left;
 
 .exercise-number {
 	font-size: 1.5em;
+}
+
+@page :left {
+  @bottom-left {
+    content: counter(page);
+  }
 }
 
