@@ -112,7 +112,6 @@ box-shadow:none!important
 
 .exercise-right {
   page-break-inside: avoid;
-  page-break-after: always;
 }
 
 a,a:visited {
