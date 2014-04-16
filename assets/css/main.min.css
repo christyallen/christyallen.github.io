@@ -4487,7 +4487,3 @@ text-align: left;
 .exercise-number {
 	font-size: 1.5em;
 }
-
-p { page-break-after: always; }
-.footer { position: fixed; bottom: 0px; }
-.pagenum:before { content: counter(page); }
