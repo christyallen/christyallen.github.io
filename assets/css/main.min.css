@@ -110,6 +110,15 @@ background:transparent!important;
 box-shadow:none!important
 }
 
+.exercise-right {
+  page-break-inside: avoid;
+}
+
+.exercise-left {
+	page-break-before: always;
+	page-break-after: avoid;
+}
+
 a,a:visited {
 text-decoration:underline
 }
