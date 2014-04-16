@@ -115,10 +115,6 @@ box-shadow:none!important
   page-break-after: always;
 }
 
-.exercise-left {
-  page-break-after: avoid;
-}
-
 a,a:visited {
 text-decoration:underline
 }
@@ -4474,17 +4470,7 @@ background-color:#fff
 }
 
 .exercise-right {
-float:right;
-width:800px;
 text-align: left;
-}
-
-
-.exercise-left {
-float:left;
-width:100px;
-text-align: center;
-font-size: 30px;
 }
 
 .instructions {
@@ -4494,6 +4480,6 @@ font-size: 30px;
 	font-style: italic;
 }
 
-clear {
-    clear: both;
+.exercise-number {
+	font-size: 3em;
 }
