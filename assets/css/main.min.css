@@ -110,6 +110,10 @@ background:transparent!important;
 box-shadow:none!important
 }
 
+.navigation-wrapper {
+	display: none;
+}
+
 .exercise-right {
   page-break-inside: avoid;
 }
