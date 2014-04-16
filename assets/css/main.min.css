@@ -153,6 +153,9 @@ max-width:100%!important
 
 @page {
 margin:.5cm
+   @bottom-right {
+    content: counter(page) " of " counter(pages);
+   }
 }
 
 p,h2,h3 {
@@ -4488,8 +4491,3 @@ text-align: left;
 	font-size: 1.5em;
 }
 
-@page {
-   @bottom-right {
-    content: counter(page) " of " counter(pages);
-   }
-}
