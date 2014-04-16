@@ -4488,9 +4488,3 @@ text-align: left;
 	font-size: 1.5em;
 }
 
-@page :left {
-  @bottom-left {
-    content: counter(page);
-  }
-}
-
