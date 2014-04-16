@@ -110,6 +110,10 @@ background:transparent!important;
 box-shadow:none!important
 }
 
+#printhead {
+  display: block;
+  }
+
 .navigation-wrapper {
 	display: none;
 }
@@ -320,6 +324,12 @@ padding-left:60px
 .image-credit {
 max-width:960px
 }
+}
+
+@media screen {
+  #printhead {
+  display: none;
+  }
 }
 
 .image-credit a {
