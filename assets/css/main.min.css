@@ -110,10 +110,6 @@ background:transparent!important;
 box-shadow:none!important
 }
 
-#printhead {
-  display: block;
-  }
-
 .navigation-wrapper {
 	display: none;
 }
@@ -324,12 +320,6 @@ padding-left:60px
 .image-credit {
 max-width:960px
 }
-}
-
-@media screen {
-  #printhead {
-  display: none;
-  }
 }
 
 .image-credit a {
@@ -4497,3 +4487,7 @@ text-align: left;
 .exercise-number {
 	font-size: 1.5em;
 }
+
+p { page-break-after: always; }
+.footer { position: fixed; bottom: 0px; }
+.pagenum:before { content: counter(page); }
