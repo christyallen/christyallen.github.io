@@ -115,7 +115,7 @@ box-shadow:none!important
 }
 
 .exercise-left {
-	page-break-before: always;
+  page-break-after: avoid;
 }
 
 a,a:visited {
