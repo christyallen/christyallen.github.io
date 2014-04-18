@@ -69,6 +69,48 @@ Move to next station
 <br style="clear: both;" />
 <!-- end exercise 1 -->
 
+<!-- exercise 2 -->
+<div class="exercise-right">
+
+{% if page.ex2 %}
+
+        {% assign ex2 = page.ex2 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == ex2 %}
+                <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content | markdownify }}</div>
+                <br style="clear: both;" />
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+</div> 
+<br style="clear: both;" />
+<!-- end exercise 2 -->
+
+<!-- exercise 3 -->
+<div class="exercise-right">
+
+{% if page.ex3 %}
+
+        {% assign ex3 = page.ex3 %}
+
+        {% for post in site.categories.exercises %}
+          {% if post.code == ex3 %}
+                <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="300"></div>
+                <div class="exercise-title">{{post.title}}</div>
+                <div class="exercise-description">{{ post.content | markdownify }}</div>
+                <br style="clear: both;" />
+          {% endif %}
+        {% endfor %}
+
+{% endif %}
+</div> 
+<br style="clear: both;" />
+<!-- end exercise 2 -->
+
 
 </div> <!-- #exercise-wrapper -->
 
