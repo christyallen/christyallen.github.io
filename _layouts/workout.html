@@ -74,7 +74,7 @@
           {% if post.code == exercise-1b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Bit</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -99,7 +99,10 @@
           {% if post.code == exercise-2 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 2</div>
+              <div class="exercise-number">Tabata 2</div>
+              {% if page.exercise-2b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -118,7 +121,7 @@
           {% if post.code == exercise-2b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 2b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -143,7 +146,10 @@
           {% if post.code == exercise-3 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 3</div>
+              <div class="exercise-number">Tabata 3</div>
+             {% if page.exercise-3b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -162,7 +168,7 @@
           {% if post.code == exercise-3b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 3b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -187,7 +193,10 @@
           {% if post.code == exercise-4 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 4</div>
+              <div class="exercise-number">Tabata 4</div>
+             {% if page.exercise-4b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -206,7 +215,7 @@
           {% if post.code == exercise-4b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 4b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -231,7 +240,10 @@
           {% if post.code == exercise-5 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 5</div>
+              <div class="exercise-number">Tabata 5</div>
+            {% if page.exercise-5b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -250,7 +262,7 @@
           {% if post.code == exercise-5b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 5b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -275,7 +287,10 @@
           {% if post.code == exercise-6 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 6</div>
+              <div class="exercise-number">Tabata 6</div>
+              {% if page.exercise-6b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -294,7 +309,7 @@
           {% if post.code == exercise-6b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 6b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -319,7 +334,10 @@
           {% if post.code == exercise-7 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 7</div>
+              <div class="exercise-number">Tabata 7</div>
+              {% if page.exercise-7b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -338,7 +356,7 @@
           {% if post.code == exercise-7b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 7b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -363,7 +381,10 @@
           {% if post.code == exercise-8 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 8</div>
+              <div class="exercise-number">Tabata 8</div>
+              {% if page.exercise-8b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -382,7 +403,7 @@
           {% if post.code == exercise-8b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 8b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -407,7 +428,10 @@
           {% if post.code == exercise-9 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 9</div>
+              <div class="exercise-number">Tabata 9</div>
+              {% if page.exercise-9b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -426,7 +450,7 @@
           {% if post.code == exercise-9b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 9b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -451,7 +475,10 @@
           {% if post.code == exercise-10 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 10</div>
+              <div class="exercise-number">Tabata 10</div>
+              {% if page.exercise-10b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -470,7 +497,7 @@
           {% if post.code == exercise-10b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 10b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -495,7 +522,10 @@
           {% if post.code == exercise-11 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 11</div>
+              <div class="exercise-number">Tabata 11</div>
+              {% if page.exercise-11b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -514,7 +544,7 @@
           {% if post.code == exercise-11b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 11b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -539,7 +569,10 @@
           {% if post.code == exercise-12 %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 12</div>
+              <div class="exercise-number">Tabata 12</div>
+              {% if page.exercise-12b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -558,7 +591,7 @@
           {% if post.code == exercise-12b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 12b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
