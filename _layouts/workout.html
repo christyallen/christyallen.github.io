@@ -53,7 +53,10 @@
         {% for post in site.categories.exercises %}
           {% if post.code == exercise-1 %}
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 1</div>
+              <div class="exercise-number">Tabata 1</div>
+              {% if page.exercise-1b %}
+               <div class="exercise-number">A</div>
+              {% endif %}
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />
@@ -71,7 +74,7 @@
           {% if post.code == exercise-1b %}
           <p>
             <div class="exercise-image"><img src="/images/exercises/{{post.image}}" width="200"></div>
-              <div class="exercise-number">Exercise 1b</div>
+              <div class="exercise-number">B</div>
                 <div class="exercise-title">{{post.title}}</div>
                 <div class="exercise-description">{{ post.content | markdownify }}</div>
                 <br style="clear: both;" />

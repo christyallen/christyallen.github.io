@@ -8,5 +8,5 @@ image: cheerleader.jpg
 code: CL30026
 ---
 
-- shoulder width feet holding dumbbells (advanced stand on one leg)
-- follow this series with arms: “W” at chest height, crisscross punch at chest level, back to “W” at chest, “V” above head, and back to “W” to repeat series 	
+- shoulder width feet holding dumbbells (**advanced stand on one leg**)
+- follow this series with arms: **“W” at chest height, crisscross punch at chest level, back to “W” at chest, “V” above head, and back to “W”** to repeat series 	
