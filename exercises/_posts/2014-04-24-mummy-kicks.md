@@ -8,4 +8,8 @@ image: mummy-kicks.jpg
 code: MK4001
 ---
 
-feet stay low while you alternate kicking them out front tapping toes to the floor, knees don’t bend, ; arms are straight and out front at chest level, crisscrossing them as you jump; keep chin lifted up . . . also keep those arms up at chest level
+Feet stay low while you alternate kicking them out front tapping toes to the floor, knees don’t bend,
+
+arms are straight and out front at chest level, crisscrossing them as you jump; keep chin lifted up
+
+keep those arms up at chest level

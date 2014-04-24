@@ -8,4 +8,8 @@ image: squat-swing.jpg
 code: SS4006
 ---
 
-holding one dumbbell in both hands, squat with weight between legs - come up- lifting Left leg out laterally to the side and bringing weight straight up over head. THen, back down to squat and weight between legs. continue. repeat next set with opp leg.
+Hold one dumbbell in both hands
+
+squat with weight between legs - come up- lifting Left leg out laterally to the side and bringing weight straight up over head. 
+
+Then, back down to squat and weight between legs. continue. repeat next set with opp leg.
