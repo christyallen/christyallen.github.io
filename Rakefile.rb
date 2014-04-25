@@ -99,7 +99,7 @@ namespace :site do
   end
   desc "Generate and publish master git-hub"
   task :publish => [:generate] do
-      system "git add ."
+      system "git add . --all"
       system "git add -u"
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
