@@ -163,6 +163,9 @@ widows:3
 h2,h3 {
 page-break-after:avoid
 }
+.pagefooter{
+	{ display: block; position: running(pageFooter); width: 100%; }
+}
 }
 
 body {
@@ -4494,4 +4497,7 @@ text-align: left;
 	font-weight: bold;
 	font-size: 2em;
 	text-transform:uppercase;
+}
+.pagefooter {
+	display: none;
 }
