@@ -118,6 +118,10 @@ box-shadow:none!important
   page-break-inside: avoid;
 }
 
+.pagefooter {
+	display: block; position: running(pageFooter); width: 100%;
+}
+
 a,a:visited {
 text-decoration:underline
 }
@@ -162,9 +166,6 @@ widows:3
 
 h2,h3 {
 page-break-after:avoid
-}
-.pagefooter{
-	display: block; position: running(pageFooter); width: 100%;
 }
 }
 
