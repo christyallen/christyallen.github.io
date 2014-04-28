@@ -152,9 +152,7 @@ max-width:100%!important
 }
 
 @page {
-margin: 1.2in .4in .4in .4in;
-size: 8.5in 11in;  /* width height */
-@bottom-left { content: element(footer); }
+margin:.5cm
 }
 
 p,h2,h3 {
@@ -4497,6 +4495,3 @@ text-align: left;
 	font-size: 2em;
 	text-transform:uppercase;
 }
-
-div.footer { display: none }
-div.footer { display: block; position: running(footer); }
