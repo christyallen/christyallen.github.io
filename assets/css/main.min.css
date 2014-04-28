@@ -154,7 +154,7 @@ max-width:100%!important
 @page {
 margin: 1.2in .4in .4in .4in;
 size: 8.5in 11in;  /* width height */
-@top-left { content: element(header); }
+@bottom-left { content: element(footer); }
 }
 
 p,h2,h3 {
