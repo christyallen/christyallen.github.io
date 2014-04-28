@@ -164,7 +164,7 @@ h2,h3 {
 page-break-after:avoid
 }
 .pagefooter{
-	{ display: block; position: running(pageFooter); width: 100%; }
+	display: block; position: running(pageFooter); width: 100%;
 }
 }
 
