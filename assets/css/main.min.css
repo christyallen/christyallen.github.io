@@ -118,10 +118,6 @@ box-shadow:none!important
   page-break-inside: avoid;
 }
 
-.pagefooter {
-	display: block; position: running(pageFooter); width: 100%;
-}
-
 a,a:visited {
 text-decoration:underline
 }
@@ -156,7 +152,9 @@ max-width:100%!important
 }
 
 @page {
-margin:.5cm
+margin: 1.2in .4in .4in .4in;
+size: 8.5in 11in;  /* width height */
+@top-left { content: element(header); }
 }
 
 p,h2,h3 {
@@ -4499,6 +4497,6 @@ text-align: left;
 	font-size: 2em;
 	text-transform:uppercase;
 }
-.pagefooter {
-	display: none;
-}
+
+div.footer { display: none }
+div.footer { display: block; position: running(footer); }
